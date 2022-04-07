@@ -1,0 +1,734 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.clear_forms {
+    background: none;
+    border: none;
+}
+
+.display_flex {
+    display: flex;
+}
+
+.font_size_25 {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
+
+/*
+    header
+*/
+
+.header_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #1c1c1a;
+}
+
+.header_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.button_place {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header_buttons {
+    width: 125px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.header_buttons:hover {
+    font-weight: normal;
+}
+
+/*
+    main
+*/
+
+.main_section {
+    height: auto;
+    width: 100%;
+}
+
+.standaard_section {
+    height: 92vh;
+    width: 100%;
+}
+
+.welkom_content {
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/fotos/welkomimage.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 10%);
+    padding: 10px;
+}
+
+.welkom_text_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.text_container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+}
+
+.welkom_text {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+}
+
+.mark_welkom_text {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #77f54b;
+}
+
+.pizza_naam_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 200px;
+}
+
+.next_page_button_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.down_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    background-color: whitesmoke;
+    -webkit-transition: 1s;
+}
+
+.down_button:hover {
+    width: 75px;
+    height: 75px;
+    transition-duration: 0.6s;
+}
+
+.pizza_naam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #48d948;
+    width: 500px;
+    height: 100px;
+    transform: rotate(-10deg);
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px #1c1c1a;
+}
+
+.pizza_text {
+    font-family: 'Hurricane', cursive;
+    font-size: 60px;
+}
+
+.welkoms_bericht_section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+
+.mid_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #1c1c1a;
+    border-top: 2px solid #2a2a28;
+    border-bottom: 2px solid #2a2a28;
+}
+
+.mid_bar_text {
+    font-size: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.welkom_foto_container {
+    width: 60%;
+    height: 652px;
+}
+
+.welkom_text_container {
+    width: 40%;
+    height: 652px;
+}
+
+.faq_plek {
+    width: 80%;
+    height: auto;
+    background-color: blue;
+}
+
+.welkom_text_plek {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+}
+
+.faq_text {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
+
+.blok_faq_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    transform: rotate(5deg);
+    box-shadow: 4px 4px 2px 2px black;
+    border-radius: 4px;
+}
+
+.info_text_plek {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.info_font {
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
+
+.info_text {
+    height: 200px;
+    width: 80%;
+}
+
+.small_info_font {
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+
+.welkom_content_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.welkom_text_foto_bericht {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/fotos/rechtepizza.jpg);
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
+    background-size: cover;
+    z-index: -5;
+}
+
+.woord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    transform: rotate(-5deg);
+    background-color: #48d948;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px 2px #1c1c1a;
+}
+
+.woord_right {
+    transform: rotate(5deg);
+}
+
+.woord_plek {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 80%;
+    height: 160px;
+
+}
+
+.woord_plek_right {
+    justify-content: right;
+}
+
+.jochem_woord_font {
+    font-family: 'Hurricane', cursive;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .welkoms_bericht_section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .welkom_foto_container {
+        width: 100%;
+    }
+
+    .welkom_text_container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .pizza_text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .pizza_text {
+        font-size: 40px;
+    }
+}
+
+/*
+    footer
+*/
+
+.footer_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #1c1c1a;
+}
+
+.footer_container {
+    display: flex;
+    width: 80%;
+    height: 100%;
+}
+
+.naam_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.locatie_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.footer_text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    .footer_text {
+        font-size: 12px;
+    }
+}
+
+/*
+    Reserveren pagina
+*/
+
+.foto_plek_reserveren {
+    width: 60%;
+    height: 92vh;
+    background-image: url(../media/fotos/pexels-victor-miyata-3682837.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
+}
+
+.form_plek_reserveren {
+    width: 40%;
+    height: 92vh;
+}
+
+.form_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+}
+
+.reserveren_text_blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    transform: rotate(5deg);
+    background-color: #48d948;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px 2px #1c1c1a;
+}
+
+.form_text_blokken {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.info_font_reserveren {
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+
+.container_form {
+    width: 100%;
+    height: 450px;
+}
+
+.form_plek {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form_invul_veld {
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.label_blok {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    .display_flex {
+        flex-direction: column;
+    }
+
+    .standaard_section {
+        height: auto;
+    }
+
+    .foto_plek_reserveren {
+        width: 100%;
+    }
+
+    .form_plek_reserveren {
+        width: 100%;
+    }
+}
+
+/*
+    Login
+*/
+
+/*
+    Menu
+*/
+
+.display_flex_menu {
+    display: flex;
+}
+
+.menu_section {
+    width: 100%;
+    height: 92vh;
+}
+
+.menu_zoekbalk {
+    width: 15%;
+    height: auto;
+    border-right: 2px solid lightgray;
+}
+
+.product_plaats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 92vh;
+    padding: 10px;
+    background-image: url(../media/fotos/menubackgroudn.jpg);
+    background-size: 100% 100%;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 30%);
+}
+
+.zoek_plek {
+    width: 100%;
+    height: 75px;
+}
+
+.zoek_plek_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+.zoek_styles {
+    width: 70%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.submit_plek_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.submit_button_styles {
+    width: 80%;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.order_price_plek {
+    width: 100%;
+    height: 150px;
+}
+
+.price_plek_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33.33333%;
+}
+
+.link_order_price {
+    width: 70%;
+    height: 30px;
+    border-bottom: 3px solid black;
+    border-radius: 1px;
+}
+
+/*
+    products place
+*/
+
+.product_container {
+    width: 200px;
+    height: auto;
+    max-height: 200px;
+    margin: 5px;
+    border: 2px solid #b2b4b4;
+    background-color: #f3f1f1;
+    border-radius: 4px;
+}
+
+.text_plek_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 100%;
+}
+
+.winkel_mand_button_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+}
+
+.product_uitleg_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.prijs_plek_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.font_product {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.font_product_uitleg {
+    font-size: 14px;
+    font-family: 'Lora', serif;
+}
+
+.product_image_plek {
+    width: 100%;
+    height: 110px;
+}
+
+.product_image_size {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.button_size_product {
+    width: 99%;
+    height: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .menu_zoekbalk {
+        width: 200px;
+    }
+}
+
+/*
+    login form
+*/
+
+.login_plek {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(14, 14, 14, 0.8);
+}
+
+.login_form {
+    display: none;
+    flex-wrap: wrap;
+    background-image: url(../media/fotos/pizzalogin.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+.login_text_plek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+
+.login_blok_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    transform: rotate(-5deg);
+    background-color: red;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    box-shadow: 4px 4px 2px 2px #1c1c1a;
+}
+
+.form_login_plek {
+   width: 100%;
+   height: 190px;
+}
+
+.label_font_login {
+    font-family: 'Lora', serif;
+    font-size: 25px;
+}
+
+.input_plek_login {
+    width: 70%;
+    height: 30px;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+
+.input_blok_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+}
+
+.submit_login {
+    border: 2px solid black;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+}

@@ -732,3 +732,31 @@ button {
     height: 20px;
     border-radius: 10px;
 }
+
+/*
+    reserveringen admin
+*/
+
+.foto_section_res {
+    width: 25%;
+    height: 92vh;
+    background-color: red;
+}
+
+.border_right_img {
+    border-right: 2px solid #b2b4b4;
+}
+
+.background_img_1 {
+    background-image: url(../media/fotos/verpizza1.jpg);
+    background-size: cover;
+}
+
+.container_reserveringen {
+    width: 50%;
+    height: 92vh;
+}
+
+.display_flex_admin {
+    display: flex;
+}

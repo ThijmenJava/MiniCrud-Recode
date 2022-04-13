@@ -1,4 +1,8 @@
-<?php ?>
+<?php
+
+session_start();
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,7 +39,7 @@
                     </div>
                 </div>
                 <div class="form_plek">
-                    <form action="includes/reserverenbackend.php" method="post">
+                    <form action="php/reserverenbackend.php" method="post">
                         <div class="label_blok">
                             <label class="labels" for="naam">Naam</label>
                         </div>

@@ -752,6 +752,11 @@ button {
     background-size: cover;
 }
 
+.background_img_2 {
+    background-image: url(../media/fotos/verpizza1.jpg);
+    background-size: cover;
+}
+
 .container_reserveringen {
     width: 50%;
     height: 92vh;

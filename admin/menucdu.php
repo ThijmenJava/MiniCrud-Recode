@@ -1,7 +1,7 @@
 <?php
 
 include("../includes/imageloader.php");
-include("../includes/session.php");
+//include("../includes/session.php");
 
 $name = $_SESSION['name'];
 

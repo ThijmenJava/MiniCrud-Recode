@@ -1,6 +1,8 @@
 <?php
 
-include("includes/menubackend.php");
+include("php/menubackend.php");
+
+session_start();
 
 ?>
 <!doctype html>

@@ -2,9 +2,9 @@
 
 namespace PHPMailer\PHPMailer\PHPClasse;
 
-require 'includes/phpmailer/Exception.php';
-require 'includes/phpmailer/PHPMailer.php';
-require 'includes/phpmailer/SMTP.php';
+require '../includes/phpmailer/Exception.php';
+require '../includes/phpmailer/PHPMailer.php';
+require '../includes/phpmailer/SMTP.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 

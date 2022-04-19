@@ -10,6 +10,13 @@ button {
     background: none;
 }
 
+table {
+    width: 100%;
+    margin: 5px;
+    border-collapse: collapse;
+    font-family: 'Lora', serif;
+}
+
 .clear_forms {
     background: none;
     border: none;
@@ -22,6 +29,11 @@ button {
 .font_size_25 {
     font-size: 25px;
     font-family: 'Lora', serif;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*
@@ -738,14 +750,18 @@ button {
 */
 
 .foto_section_res {
-    width: 25%;
+    width: 20%;
     height: 92vh;
-    background-color: red;
 }
 
 .border_right_img {
     border-right: 2px solid #b2b4b4;
 }
+
+.border_left_img {
+    border-left: 2px solid #b2b4b4;
+}
+
 
 .background_img_1 {
     background-image: url(../media/fotos/verpizza1.jpg);
@@ -753,15 +769,88 @@ button {
 }
 
 .background_img_2 {
-    background-image: url(../media/fotos/verpizza1.jpg);
+    background-image: url(../media/fotos/verpizza2.jpg);
     background-size: cover;
 }
 
 .container_reserveringen {
-    width: 50%;
-    height: 92vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    min-height: 92vh;
+    padding-top: 5px;
+    overflow: auto;
 }
 
 .display_flex_admin {
     display: flex;
+}
+
+.border_table {
+    border: 2px solid lightgray;
+}
+
+.border_buttom_tabel {
+    margin: 5px;
+    border-bottom: 2px solid lightgray;
+}
+
+.table_button {
+    width: 100%;
+    height: 20px;
+    background-color: #ea4444;
+    border-left: 2px solid lightgray;
+}
+
+@media only screen and (max-width: 1300px) {
+    .foto_section_res {
+        display: none;
+    }
+
+    .container_reserveringen {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .table_res {
+        white-space: nowrap;
+    }
+}
+
+/*
+    menucdu
+*/
+
+.foto_pizza_menucdu {
+    width: 30%;
+    height: 100%;
+    background-image: url(../media/fotos/pizzamenucdu.jpg);
+    background-size: cover;
+    border-right: 2px solid lightgray;
+}
+
+.inhoud_menucdu {
+    width: 70%;
+    height: 100%;
+}
+
+.buttons_menucdu {
+    height: 10%;
+    width: 100%;
+    background-color: #ea4444;
+}
+
+.container_menucdu {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 90%;
+    width: 100%;
+    background-color: #48d948;
+    background-size: cover;
 }

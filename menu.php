@@ -4,6 +4,12 @@ include("php/menubackend.php");
 
 session_start();
 
+$winkelwagen = array();
+
+if (isset($_POST["add"])) {
+
+}
+
 ?>
 <!doctype html>
 <html lang="en">

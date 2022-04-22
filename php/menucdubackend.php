@@ -21,7 +21,7 @@ function showMenuCdu() {
                 echo "<td> <input class='input_auto' type='text' name='description' value='{$value["description"]}'> </td>";
                 echo "<td> <input class='table_button green clear_forms' value='Update' type='submit' name='submit'></form> </td>";
                 echo "<td> <a href='../php/deleteproduct.php?ID={$value["productID"]}'><button class='table_button'>Delete</button></a> </td>";
-            echo "</tr>";
+            echo "<tr>";
         }
     } else {
         $error = "No results!";

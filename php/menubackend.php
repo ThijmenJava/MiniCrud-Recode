@@ -51,7 +51,8 @@ function showAllProducts() {
                     echo "</div>";
                 echo "</form>";
                 echo "<div class='winkel_mand_button_plek'><a href='menu.php?naam={$value["product_name"]}&price={$value["price"]}'><button>ADD</button></a></div>";
-            echo "</div>";
+                    echo "<div class='winkel_mand_button_plek'><input class='clear_forms button_size_product font_product_uitleg' type=submit value=ADD ></div>";
+                echo "</form>";
         }
     } else {
         $error = "No results!";

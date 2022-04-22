@@ -848,6 +848,7 @@ table {
 .buttons_menucdu {
     height: 10%;
     width: 100%;
+    background-color: #ea4444;
 }
 
 .container_menucdu {
@@ -1021,3 +1022,6 @@ table {
 }
 
 
+    background-color: #48d948;
+    background-size: cover;
+}

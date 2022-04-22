@@ -4,20 +4,6 @@ include("php/menubackend.php");
 
 session_start();
 
-if(!$_SESSION['winkelwagen']) {
-    $_SESSION['winkelwagen'] = [];
-}
-
-if (!$_SESSION["price"]) {
-    $_SESSION["price"] = [];
-}
-
-$_SESSION["winkelwagen"][] = $_GET["naam"];
-$_SESSION["price"][] = $_GET["price"];
-
-//echo implode($_SESSION["winkelwagen"]);
-//echo implode($_SESSION["price"]);
-
 ?>
 <!doctype html>
 <html lang="en">

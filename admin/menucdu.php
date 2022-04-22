@@ -29,11 +29,6 @@ $name = $_SESSION['name'];
 </head>
 <body>
 
-<!--    <form method="post" action="" enctype="multipart/form-data">-->
-<!--        <input type="file" name="file">-->
-<!--        <input type="submit">-->
-<!--    </form>-->
-
     <?php include("../includes/admin/headeradmin.php"); ?>
 
     <section class="main_section">
@@ -46,7 +41,6 @@ $name = $_SESSION['name'];
                     <div class="container_button_menucdu">
                         <button class="button_menucdu" id="gerechtbutton">Gerecht Aanmaken</button>
                     </div>
-                </div>
                 <div class="container_menucdu">
                     <table class="border_table table_res">
                         <tr class="border_buttom_tabel">
@@ -115,5 +109,6 @@ $name = $_SESSION['name'];
     <?php include("../includes/footer.php"); ?>
 
     <script src="../js/menucdu.js"></script>
+
 </body>
 </html>

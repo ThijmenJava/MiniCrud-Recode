@@ -20,7 +20,6 @@ if (isset($_POST["submit"])) {
     $stmt->bindParam(":description", $description);
     $stmt->bindParam(":id", $id);
     $stmt->execute();
-}
 
-echo $id;
-echo "test";
+    redirect("../admin/menucdu.php");
+}

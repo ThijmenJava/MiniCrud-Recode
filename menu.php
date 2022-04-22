@@ -4,11 +4,19 @@ include("php/menubackend.php");
 
 session_start();
 
-$winkelwagen = array();
-
-if (isset($_POST["add"])) {
-
+if(!$_SESSION['winkelwagen']) {
+    $_SESSION['winkelwagen'] = [];
 }
+
+if (!$_SESSION["price"]) {
+    $_SESSION["price"] = [];
+}
+
+$_SESSION["winkelwagen"][] = $_GET["naam"];
+$_SESSION["price"][] = $_GET["price"];
+
+//echo implode($_SESSION["winkelwagen"]);
+//echo implode($_SESSION["price"]);
 
 ?>
 <!doctype html>
@@ -62,6 +70,9 @@ if (isset($_POST["add"])) {
                 </div>
                 <div class="submit_plek_menu">
                     <input class="submit_button_styles clear_forms" type="submit" name="submit" value="Zoeken">
+                </div>
+                <div class="winkel_wagen_plek">
+
                 </div>
             </form>
             <div class="product_plaats">

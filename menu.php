@@ -57,6 +57,9 @@ session_start();
                 <div class="submit_plek_menu">
                     <input class="submit_button_styles clear_forms" type="submit" name="submit" value="Zoeken">
                 </div>
+                <div class="winkel_wagen_plek">
+
+                </div>
             </form>
             <div class="product_plaats">
                 <?php showAllProducts(); ?>

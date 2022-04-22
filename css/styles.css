@@ -522,7 +522,8 @@ table {
     justify-content: center;
     flex-wrap: wrap;
     width: 85%;
-    height: 92vh;
+    height: auto;
+    min-height: 92vh;
     padding: 10px;
     background-image: url(../media/fotos/menubackgroudn.jpg);
     background-size: 100% 100%;
@@ -583,6 +584,11 @@ table {
     height: 30px;
     border-bottom: 3px solid black;
     border-radius: 1px;
+}
+
+.winkel_wagen_plek {
+    height: auto;
+    width: 100%;
 }
 
 /*
@@ -851,6 +857,171 @@ table {
     align-items: start;
     height: 90%;
     width: 100%;
+    background-size: cover;
+}
+
+.container_button_menucdu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.button_menucdu {
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.product_aanmaken_plek {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(14, 14, 14, 0.8);
+}
+
+.product_form_aanmaken {
+    display: none;
+    flex-wrap: wrap;
+    height: auto;
+    width: 500px;
+    background-color: white;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+.header_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.container_form_menucdu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+}
+
+.input_menucdu_plek {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 90%;
+    margin: 3px;
+}
+
+.submit_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+}
+
+.form_auto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.label_plek_menucdu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 35%;
+    height: 100%;
+}
+
+.input_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+
+.input_menucdu {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+
+.input_auto {
+    width: 100%;
+    height: 100%;
+}
+
+.green {
+    background-color: #77f54b;
+}
+
+.background_img_users {
+    background-image: url(../media/fotos/pizzaaccounts.jpg);
+}
+
+@media only screen and (max-width: 1200px) {
+    .foto_pizza_menucdu {
+        display: none;
+    }
+
+    .inhoud_menucdu {
+        width: 100%;
+    }
+
+    .container_menucdu {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        width: 100%;
+        height: 92vh;
+        overflow-x: auto;
+    }
+}
+
+/*
+    random
+*/
+
+@media only screen and (max-width: 1200px) {
+    .menu_section {
+        height: auto;
+    }
+
+    .main_section {
+        height: auto;
+    }
+
+    .product_plaats {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .product_plaats {
+        background-image: none;
+        box-shadow: none;
+    }
+}
+
+
     background-color: #48d948;
     background-size: cover;
 }
